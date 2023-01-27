@@ -8,7 +8,7 @@ let Renault = new Voiture(
   "2003",
   "climatisé"
 );
-let BMW = new Moto("BMW", "R1150R Rockster", "65.00km", "2005", "");
+let BMW = new Moto("BMW", "R1150R Rockster", "65 00km", "2005", "");
 
 console.log(Renault.display());
 console.log(BMW.display());
