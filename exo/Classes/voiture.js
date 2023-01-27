@@ -1,7 +1,7 @@
 import Vehicule from "./vehicule.js";
 
 export default class Voiture extends Vehicule {
-  affichage() {
-    return `<p>je suis une voiture : ${super.affichage()}  </p>`;
+  display() {
+    return `<p>je suis une voiture : ${super.display()}  </p>`;
   }
 }

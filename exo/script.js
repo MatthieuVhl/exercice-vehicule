@@ -10,10 +10,10 @@ let Renault = new Voiture(
 );
 let BMW = new Moto("BMW", "R1150R Rockster", "65.00km", "2005", "");
 
-console.log(Renault.affichage());
-console.log(BMW.affichage());
+console.log(Renault.display());
+console.log(BMW.display());
 
 let Vehicules = document.querySelector("#Vehicules");
 
-Vehicules.innerHTML += Renault.affichage();
-Vehicules.innerHTML += BMW.affichage();
+Vehicules.innerHTML += Renault.display();
+Vehicules.innerHTML += BMW.display();

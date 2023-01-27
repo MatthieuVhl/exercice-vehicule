@@ -7,7 +7,7 @@ export default class Vehicule {
     this.option = option;
   }
 
-  affichage() {
+  display() {
     return `Véhicule : ${this.marque} - ${this.modele} - ${this.kilometre} - ${this.annee} - ${this.option}  `;
   }
 }
