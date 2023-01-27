@@ -4,10 +4,9 @@ export default class Vehicule {
     this.modele = modele;
     this.kilometre = kilometre;
     this.annee = annee;
-    this.option = option;
   }
 
   display() {
-    return `Véhicule : ${this.marque} - ${this.modele} - ${this.kilometre} - ${this.annee} - ${this.option}  `;
+    return `Véhicule : ${this.marque} - ${this.modele} - ${this.kilometre} - ${this.annee} -  `;
   }
 }
